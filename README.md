@@ -1,5 +1,5 @@
-# CXI-Template
-Template fast-analysis code for CXI Experiments in standard configuration #2.
+# CXI-1015758-Forbes
+Fast analysis code for the CXI-1015758-Forbes coherent mixed scattering experiment.
 ## Setup
 Use this template to make a new repository, and don't forget to edit `config.yaml` file to match the experiment.
 
