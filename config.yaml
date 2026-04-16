@@ -17,7 +17,7 @@ data_paths:
 # Photon energy
 photon_energy:
 - runs: [0, .inf]
-  energy: 10   # in keV
+  energy: 9.8   # in keV
 # Pump pulse energy, in uJ
 pump_energy:
 - runs: [0, .inf]
