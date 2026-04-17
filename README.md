@@ -10,6 +10,7 @@ conda init
 ```bash
 conda config --append envs_dirs /sdf/group/lcls/ds/tools/conda_envs/
 ```
+Restart the terminal between these two commands.
 ```bash
 conda activate weber_group
 ```
