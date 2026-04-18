@@ -2,8 +2,8 @@
 #### Note: the indentation guideline for yaml files is 2 spaces. Not the tab character or 4 spaces. You can set the preference used by Jupyterlab in the bottom right hand corner of the text editor.
 
 # Change EXPERIMENT when initializing a new repo for an experiment. Three places to change this.
-expNumber: cxi101575825 # Enter the full run number here, e.g. cxil1037623.
-expDir: /sdf/data/lcls/ds/cxi/cxi101575825/ # Full path to the experimental directory here e.g/ /sdf/data/lcls/ds/cxi/cxil1037623/.
+expNumber: cxi101575826 # Enter the full run number here, e.g. cxil1037623.
+expDir: /sdf/data/lcls/ds/cxi/cxi101575826/ # Full path to the experimental directory here e.g/ /sdf/data/lcls/ds/cxi/cxil1037623/.
 
 # This is not used anywhere. But is useful for debugging and version control.
 template_version: v1.1.1
@@ -12,7 +12,7 @@ xrst_version: v1.0.0-beta.0 - v1.0.1
 ## Run specific information
 data_paths:
 - runs: [0, .inf]   # Add the range of runs that this path applies for. yaml parses .inf to float('inf') in python.
-  path: /sdf/data/lcls/ds/cxi/cxi101575825/hdf5/smalldata/
+  path: /sdf/data/lcls/ds/cxi/cxi101575826/hdf5/smalldata/
 
 # Photon energy
 photon_energy:
@@ -24,7 +24,11 @@ pump_energy:
   energy: 1 # in uJ
 # Sample types
 samples:
-- runs: [0, .inf]
-  sample: '[Sample]'
+- runs: [57, 57]
+  sample: 'Dark'
+- runs: [60, 60]
+  sample: 'Background'
+- runs: [61, 61]
+  sample: 'Ne'
 # Timetool calibration data
 tt_calibration:
