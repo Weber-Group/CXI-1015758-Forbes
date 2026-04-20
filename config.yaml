@@ -21,14 +21,37 @@ photon_energy:
 # Pump pulse energy, in uJ
 pump_energy:
 - runs: [0, .inf]
-  energy: 1 # in uJ
+  energy: 0.2 # in uJ
 # Sample types
 samples:
 - runs: [57, 57]
   sample: 'Dark'
+- runs: [59, 59]
+  sample: 'Background'
 - runs: [60, 60]
   sample: 'Background'
 - runs: [61, 61]
   sample: 'Ne'
+- runs: [62, 62]
+  sample: 'SF6'
+- runs: [71, 71]
+  sample: "Dark"
+- runs: [76, 76]
+  sample: 'Background'
+- runs: [77, 77]
+  sample: 'Ne'
+- runs: [78, 79]
+  sample: 'SF6'
+- runs: [80, 88]
+  sample: 'Ar'
+- runs: [89, 104]
+  sample: 'Xe'
+- runs: [105, 109]
+  sample:  'DMP'
+- runs: [110, 111]
+  sample:  'Ar'
 # Timetool calibration data
 tt_calibration:
+- runs: [79, .inf]
+  slope: -7.880086004985277e-16
+  intercept: 2.4399699326624606e-13
